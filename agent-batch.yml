@@ -1,0 +1,7 @@
+# Agent Batch Configuration for Chronokairos
+tasks:
+  - name: "Find Experimental Labs"
+    prompt: "Search for universities and research institutes in Europe and USA that have a dilution refrigerator (0 K) and a superconducting magnet (15 T). List the names of the professors and their email addresses."
+    
+  - name: "Draft Emails"
+    prompt: "Write a formal email to a physics professor proposing an experimental collaboration on the Casimir effect in superconductors. Keep it under 150 words. Use the following data: 10 independent runs, 200 generations, 1.00 nm, 0.0 K, 15.00 T."
